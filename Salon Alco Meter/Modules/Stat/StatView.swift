@@ -100,7 +100,7 @@ struct BOOverTimeCard: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            Text("BO Over Time")
+            Text("Effect Level Over Time")
                 .font(.system(size: 18, weight: .semibold))
                 .foregroundColor(.white)
             
@@ -394,7 +394,7 @@ struct TopDrinksCard: View {
                                 Text(item.drink.displayName)
                                     .font(.system(size: 15, weight: .semibold))
                                     .foregroundColor(.white)
-                                Text(String(format: "%.1f total BO", item.totalBO))
+                                Text(String(format: "%.1f total Effect Level", item.totalBO))
                                     .font(.system(size: 13, weight: .regular))
                                     .foregroundColor(.white.opacity(0.6))
                             }

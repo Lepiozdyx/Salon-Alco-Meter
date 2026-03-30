@@ -110,7 +110,7 @@ struct VoyageDetailsOverlay: View {
                     .padding(.bottom, 20)
                 
                 HStack(spacing: 12) {
-                    StatCard(title: "Peak BO", value: String(format: "%.1f", swim.peakBO))
+                    StatCard(title: "Peak Effect Level", value: String(format: "%.1f", swim.peakBO))
                     StatCard(title: "Drinks", value: "\(swim.drinkCount)")
                     StatCard(title: "Duration", value: swim.durationText)
                 }
@@ -394,7 +394,7 @@ struct AbsoluteRecordCard: View {
                 Spacer()
             }
             HStack {
-                Text(String(format: "%.1f BO", record.peakBO))
+                Text(String(format: "%.1f Effect Level", record.peakBO))
                     .foregroundColor(.white)
                     .font(.system(size: 27, weight: .bold))
                     .padding(.vertical, 1)
@@ -471,7 +471,7 @@ struct SwimHistoryCard: View {
                 Text(String(format: "%.1f", swim.peakBO))
                     .foregroundColor(borderColor)
                     .font(.system(size: 20, weight: .bold))
-                Text("Peak BO")
+                Text("Peak Effect Level")
                     .font(.system(size: 14, weight: .medium))
                     .foregroundColor(.white.opacity(0.66))
             }

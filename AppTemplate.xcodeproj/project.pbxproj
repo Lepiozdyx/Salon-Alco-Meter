@@ -453,7 +453,7 @@
 				DEVELOPMENT_TEAM = TZCUKDMG3L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Salon Alco Meter";
+				INFOPLIST_KEY_CFBundleDisplayName = "Salon Alco Visual";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
@@ -488,7 +488,7 @@
 				DEVELOPMENT_TEAM = TZCUKDMG3L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Salon Alco Meter";
+				INFOPLIST_KEY_CFBundleDisplayName = "Salon Alco Visual";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;

@@ -148,7 +148,7 @@ struct SeaView: View {
                     }
                     
                     VStack(spacing: 15) {
-                        Text("Total BO")
+                        Text("Total Effect Level")
                             .font(.system(size: 18, weight: .medium))
                             .foregroundColor(.white.opacity(0.80))
                         Text("\(String(format: "%.1f", viewModel.totalBO))")
